@@ -4,8 +4,8 @@
   <ShortName>Riverpod</ShortName>
   <Description>Search Riverpod</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://riverpod.dev/img/logo.svg</Image>
-  <Url type="text/html" method="get" template="https://riverpod.dev/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://riverpod.dev/opensearch.xml" />
-  <moz:SearchForm>https://riverpod.dev/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://riverpod.dev/riverpod/img/logo.svg</Image>
+  <Url type="text/html" method="get" template="https://riverpod.dev/riverpod/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://riverpod.dev/riverpod/opensearch.xml" />
+  <moz:SearchForm>https://riverpod.dev/riverpod/</moz:SearchForm>
 </OpenSearchDescription>
