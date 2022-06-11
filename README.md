@@ -68,7 +68,7 @@ Veja o [FAQ](#FAQ) se você tiver dúvidas sobre o que isso significa [provider]
 
 ## Migração
 
-Com o lançamento da versão 1.0.0, a sintaxe para interagir com provedores mudou.
+Com o lançamento da versão 1.0.0, a sintaxe para interagir com providers mudou.
 
 Consulte [o guia de migração](https://ulisseshen.github.io/riverpod/docs/migration/0.14.0_to_1.0.0/) para obter mais informações
 
@@ -85,19 +85,16 @@ Consulte [o guia de migração](https://ulisseshen.github.io/riverpod/docs/migra
   - [Provider será depreciado/parará de ser suportado?](#will-provider-be-deprecatedstop-being-supported)
 - [Patrocinadores](#sponsors)
 
-## Motivation
+## Motivação
 
-If [provider] is a simplification of [InheritedWidget]s, then [Riverpod] is
-a reimplementation of [InheritedWidget]s from scratch.
+Se [provider] é uma simplificação de [InheritedWidget]s, então [Riverpod] é uma reimplementação de [InheritedWidget]s do zero.
 
-It is very similar to [provider] in principle, but also has major differences
-as an attempt to fix the common problems that [provider] face.
+É muito semelhante ao [provider] em princípio, mas também tem grandes diferenças como uma tentativa de corrigir os problemas comuns que esse [provider] enfrenta.
 
-[Riverpod] has multiple goals. First, it inherits the goals of [provider]:
+[Riverpod] tem vários objetivos. Primeiro, ele herda os objetivos do [provider]:
 
-- Being able to safely create, observe and dispose states without having to worry about
-  losing the state on widget rebuild.
-- Making our objects visible in Flutter's devtool by default.
+- Ser capaz de criar, observar e descartar estados com segurança sem ter que se preocupar em perder o estado na reconstrução (rebuild) do widget.
+- Tornando nossos objetos visíveis no devtool do Flutter por padrão.
 - Testable and composable
 - Improve the readability of [InheritedWidget]s when we have multiple of them
   (which would naturally lead to a deeply nested widget tree).
