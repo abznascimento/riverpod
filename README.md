@@ -7,40 +7,38 @@
 
 <p align="center">
 <a href="https://www.netlify.com">
-  <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Deploys by Netlify" />
+  <img src="https://github.com/ulisseshen/riverpod/blob/master/resources/githubpages_host.png?raw=true" alt="Hospedado por github pages" />
 </a>
 </p>
 
 <p align="center">
-<img src="https://github.com/rrousselGit/river_pod/blob/master/resources/icon/Facebook%20Cover%20A.png?raw=true" width="100%" alt="Riverpod" />
+<img src="https://github.com/ulisseshen/riverpod/blob/master/resources/icon/Facebook%20Cover%20A.png?raw=true" width="100%" alt="Riverpod" />
 </p>
 
 </p>
 
 ---
 
-A state-management library that:
+Uma biblioteca de gerenciamento de estado que:
 
-- catches programming errors at compile time rather than
-  at runtime
-- removes nesting for listening/combining objects
-- ensures that the code is testable
+- detecta erros de programação em tempo de compilação e não em tempo de execução
+- remove o aninhamento para ouvir/combinar objetos
+- garante que o código seja testável
 
 | riverpod         | [![pub package](https://img.shields.io/pub/v/riverpod.svg?label=riverpod&color=blue)](https://pub.dartlang.org/packages/riverpod)                 |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | flutter_riverpod | [![pub package](https://img.shields.io/pub/v/riverpod.svg?label=flutter_riverpod&color=blue)](https://pub.dartlang.org/packages/flutter_riverpod) |
 | hooks_riverpod   | [![pub package](https://img.shields.io/pub/v/riverpod.svg?label=hooks_riverpod&color=blue)](https://pub.dartlang.org/packages/hooks_riverpod)     |
 
-Welcome to [Riverpod]!
+Bem-vindo ao [Riverpod]!
 
-This project can be considered as a rewrite of [provider] to make improvements
-that would be otherwise impossible.
+Este projeto pode ser considerado como uma reescrita do [provider] para fazer melhorias que de outra forma seriam impossíveis.
 
-For learning how to use [Riverpod], see its documentation: https://riverpod.dev
+Para aprender a usar o [Riverpod], consulte sua documentação: https://ulisseshen.github.io/riverpod/
 
-Long story short:
+Resumo:
 
-- Declare your providers as global variables:
+- Declare seus providers como variáveis globais:
 
   ```dart
   final counterProvider = StateNotifierProvider((ref) {
@@ -54,7 +52,7 @@ Long story short:
   }
   ```
 
-- Use them inside your widgets in a compile time safe way. No runtime exceptions!
+- Use-os dentro de seus widgets de maneira segura em tempo de compilação. Sem exceções de tempo de execução!
 
   ```dart
   class Example extends ConsumerWidget {
@@ -66,26 +64,26 @@ Long story short:
   }
   ```
 
-See the [FAQ](#FAQ) if you have questions about what this means for [provider].
+Veja o [FAQ](#FAQ) se você tiver dúvidas sobre o que isso significa [provider].
 
-## Migration
+## Migração
 
-With the release of version 1.0.0, the syntax for interacting with providers changed.
+Com o lançamento da versão 1.0.0, a sintaxe para interagir com provedores mudou.
 
-See [the migration guide](https://riverpod.dev/docs/migration/0.14.0_to_1.0.0/) for more information
+Consulte [o guia de migração](https://ulisseshen.github.io/riverpod/docs/migration/0.14.0_to_1.0.0/) para obter mais informações
 
-## Index
+## Índice
 
-- [Migration](#migration)
-- [Index](#index)
-- [Motivation](#motivation)
-- [Contributing](#contributing)
+- [Migração](#migration)
+- [Índice](#index)
+- [Motivação](#motivation)
+- [Contribuindo](#contributing)
 - [FAQ](#faq)
-  - [Why another project when provider already exists?](#why-another-project-when-provider-already-exists)
-  - [Is it safe to use in production?](#is-it-safe-to-use-in-production)
-  - [Will this get merged with provider at some point?](#will-this-get-merged-with-provider-at-some-point)
-  - [Will provider be deprecated/stop being supported?](#will-provider-be-deprecatedstop-being-supported)
-- [Sponsors](#sponsors)
+  - [Por que outro projeto quando provider já existe?](#why-another-project-when-provider-already-exists)
+  - [É seguro usar em produção?](#is-it-safe-to-use-in-production)
+  - [Será mesclado com o provider em algum momento?](#will-this-get-merged-with-provider-at-some-point)
+  - [Provider será depreciado/parará de ser suportado?](#will-provider-be-deprecatedstop-being-supported)
+- [Patrocinadores](#sponsors)
 
 ## Motivation
 

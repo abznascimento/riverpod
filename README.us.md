@@ -7,22 +7,23 @@
 
 <p align="center">
 <a href="https://www.netlify.com">
-  <img src="https://github.com/ulisseshen/riverpod/blob/master/resources/githubpages_host.png?raw=true" alt="Hospedado por github pages" />
+  <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Deploys by Netlify" />
 </a>
 </p>
 
 <p align="center">
-<img src="https://github.com/ulisseshen/riverpod/blob/master/resources/icon/Facebook%20Cover%20A.png?raw=true" width="100%" alt="Riverpod" />
+<img src="https://github.com/rrousselGit/river_pod/blob/master/resources/icon/Facebook%20Cover%20A.png?raw=true" width="100%" alt="Riverpod" />
 </p>
 
 </p>
 
 ---
 
-Uma biblioteca de gerenciamento de estado que:
+A state-management library that:
 
-- detecta erros de programação em tempo de compilação e não em tempo de execução
-- remove o aninhamento para ouvir/combinar objetos
+- catches programming errors at compile time rather than
+  at runtime
+- removes nesting for listening/combining objects
 - ensures that the code is testable
 
 | riverpod         | [![pub package](https://img.shields.io/pub/v/riverpod.svg?label=riverpod&color=blue)](https://pub.dartlang.org/packages/riverpod)                 |
